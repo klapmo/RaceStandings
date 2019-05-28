@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.table {
+    background-color: rgb(34, 33, 33);
+    color: white;
+    font-family: sans-serif;
+    width: 80%;
+    min-width: 600px;
+}
+
+th {
+    font-weight: bold;
+    text-align: left;
+}
+
+.names {
+    color:blue;
+}

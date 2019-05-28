@@ -1,0 +1,11 @@
+.nav-grid{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+}
+.nav-grid ul li{
+    list-style-type: none;
+    float: left;
+    margin: 15px;
+}

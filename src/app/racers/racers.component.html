@@ -1,0 +1,20 @@
+<div class="wrapper">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Position</th>
+        <th>Name</th>
+        <th>Nationality</th>
+        <th>Sponsor</th>
+        <th>Points</th>
+      </tr>
+    </thead>
+    <tr *ngFor= "let racer of racers">
+      <td>{{ racer.position }}</td>
+      <td class="names">{{ racer.Driver.givenName }} {{ racer.Driver.familyName }}</td>
+      <td>{{ racer.Driver.nationality }}</td>
+      <td>{{ racer.Constructors[0].name }}</td>
+      <td>{{ racer.points }}</td>
+    </tr>
+  </table>
+</div>
