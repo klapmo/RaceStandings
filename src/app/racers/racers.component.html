@@ -11,7 +11,7 @@
     </thead>
     <tr *ngFor= "let racer of racers">
       <td>{{ racer.position }}</td>
-      <td class="names">{{ racer.Driver.givenName }} {{ racer.Driver.familyName }}</td>
+      <td class="names"><a href="{{ racer.Driver.url }}" target="_blank">{{ racer.Driver.givenName }} {{ racer.Driver.familyName }}</a></td>
       <td>{{ racer.Driver.nationality }}</td>
       <td>{{ racer.Constructors[0].name }}</td>
       <td>{{ racer.points }}</td>
